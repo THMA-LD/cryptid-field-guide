@@ -1,6 +1,6 @@
 # Cryptid Field Guide
 
-Cryptid Field Guide is an AI chat app that uses an internal repository of documents to tell the user about fictional cyptids and other mysteries creatures.
+Cryptid Field Guide is an AI chat app that uses an internal repository of documents to tell the user about fictional cyptids and other mysterious creatures.
 
 ## Project Structure
 
