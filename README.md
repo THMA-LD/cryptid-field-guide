@@ -17,7 +17,7 @@ The chat interface is located at `app/page.tsx`.
 
 ## Getting Started
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Next.js](https://nextjs.org) project.
 
 First, run the development server:
 
@@ -27,6 +27,16 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## AI Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is set up to use Open AI as an LLM provider.
+
+To get this working, copy the .env example:
+
+```
+cp .env.example .env.local
+```
+
+And add your `OPENAI_API_KEY`.
+
+If you prefer to use a different provider, follow the [AI SDK docs](https://ai-sdk.dev/providers/ai-sdk-providers)
